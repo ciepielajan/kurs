@@ -31,3 +31,4 @@ def replace_age_na(x_df, fill_map):
     res=x_df.loc[cond,'Pclass'].map(fill_map)
     x_df.loc[cond,'Age']=res
     return x_df
+
